@@ -30,9 +30,11 @@
 # <HINT>
 # How does a for loop iterate through a string?
 
-def one(str):
-    for i in range(len(str)):
-        return (i * 3)
+def one(s):
+    result = ""
+    for char in s:
+        result += char * 3
+    return result
 
 # -------------------------------------------------------------------------------------------------------------------------------------------------
 
